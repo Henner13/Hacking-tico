@@ -10,6 +10,7 @@ smbclient -L 10.129.1.12
 ```
 Nos preguntaran por una contraseña pero no la sabemos. Pero nos da opciones 
 ![[Imágenes/Pasted image 20250613233914.png]]
+
 Sabiendo esto,  es ir probando con cada opción de `Sharename`.
 ```
 smbclient \\\\10.129.1.12\\ADMIN$
