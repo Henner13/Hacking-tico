@@ -101,7 +101,9 @@ export SHELL=bash
 
 ![[Pasted image 20250802210414.png]](https://github.com/Henner13/Hacking-tico/blob/main/RedTeam/HackTheBox/Im%C3%A1genes/Pasted%20image%2020250802210414.png)
 
-![[Pasted image 20250802210457.png]]![[Pasted image 20250802210458.png]](https://github.com/Henner13/Hacking-tico/blob/main/RedTeam/HackTheBox/Im%C3%A1genes/Pasted%20image%2020250802210458.png)
+![[Pasted image 20250802210457.png]](https://github.com/Henner13/Hacking-tico/blob/main/RedTeam/HackTheBox/Im%C3%A1genes/Pasted%20image%2020250802210457.png)
+
+![[Pasted image 20250802210458.png]](https://github.com/Henner13/Hacking-tico/blob/main/RedTeam/HackTheBox/Im%C3%A1genes/Pasted%20image%2020250802210458.png)
 Después de entrar y navegar por el shell, encontraremos la `flag` en el `user.txt`
 
 Ahora viene lo que probablemente sea lo más complicado e importante. Subir los privilegios.
