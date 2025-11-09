@@ -4,7 +4,7 @@ En este laboratorio empezaremos con el escaneo de puertos
 nmap -p- --open  -sC -sV -sS -n -vvv -nP 10.129.154.174
 ```
 
-![[Pasted image 20250613225756.png]] 
+![[Pasted image 20250613225756.png]](https://github.com/Henner13/Hacking-tico/blob/main/RedTeam/HackTheBox/Im%C3%A1genes/Pasted%20image%2020250613225756.png)
 
 En este caso como no conocemos ni usuario ni contraseña probaremos usando el usuario ' anonymous ' que usara por defecto la contraseña 'anon123'.
 *Nota :* Otra opción es usar Metasploit.
@@ -23,9 +23,9 @@ Esto se nos descargará en nuestra máquina y con el comando 'cat ' lo podemos v
 
 Vamos a ver como sería con Metasploit. Entramos en Metasploit.
 
-![[Pasted image 20250613231836.png]]
+![[Pasted image 20250613231836.png]](https://github.com/Henner13/Hacking-tico/blob/main/RedTeam/HackTheBox/Im%C3%A1genes/Pasted%20image%2020250613231836.png)
 
-![[Pasted image 20250613231924.png]]
+![[Pasted image 20250613231924.png]](https://github.com/Henner13/Hacking-tico/blob/main/RedTeam/HackTheBox/Im%C3%A1genes/Pasted%20image%2020250613231924.png)
 Rellenamos los campos de RHOSTS, USERNAME y PASS_FILE. 
 
 ```
@@ -36,12 +36,12 @@ Rellenamos los campos de RHOSTS, USERNAME y PASS_FILE.
 Usaremos el nombre de anonymous ya que no sabemos ningún nombre de usuario.
 Para el pass_file usaremos la ruta de nuestro documento rockyou.txt
 
-![[Pasted image 20250613232141.png]]
+![[Pasted image 20250613232141.png]](https://github.com/Henner13/Hacking-tico/blob/main/RedTeam/HackTheBox/Im%C3%A1genes/Pasted%20image%2020250613232141.png)
 
 Nos da la contraseña ' 123456 '.
 Ahora intentamos entrar como habíamos hecho antes.
 
-![[Pasted image 20250613232342.png]]
+![[Pasted image 20250613232342.png]](https://github.com/Henner13/Hacking-tico/blob/main/RedTeam/HackTheBox/Im%C3%A1genes/Pasted%20image%2020250613232342.png)
 Y entramos con éxito.
 
 
