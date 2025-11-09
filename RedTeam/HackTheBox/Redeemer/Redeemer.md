@@ -8,8 +8,8 @@ En este escaneo únicamente encontramos el puerto 6379 abierto con un servicio *
 redis-cli -h 10.129.89.155
 ```
 
-![[Pasted image 20250622184704.png]]
-![[Pasted image 20250622184808.png]]
+![[Pasted image 20250622184704.png]](https://github.com/Henner13/Hacking-tico/blob/main/RedTeam/HackTheBox/Im%C3%A1genes/Pasted%20image%2020250622184704.png)
+![[Pasted image 20250622184808.png]](https://github.com/Henner13/Hacking-tico/blob/main/RedTeam/HackTheBox/Im%C3%A1genes/Pasted%20image%2020250622184808.png)
 Al final de toda la información vemos que hay 4 keys y expires 0, por lo que vamos a seleccionar ese 0.
 ```bash
 10.129.89.155:6379> select 0
@@ -21,7 +21,7 @@ Ahora seleccionamos todas las keys con `*`
 10.129.89.155:6379> keys * 
 ```
 
-![[Pasted image 20250622185242.png]]
+![[Pasted image 20250622185242.png]](https://github.com/Henner13/Hacking-tico/blob/main/RedTeam/HackTheBox/Im%C3%A1genes/Pasted%20image%2020250622185242.png)
 Nos mostrara las siguientes keys y para ver su interior solo tendremos que usar el comando `get`.
 
 En la solución de este laboratorio lo que buscamos es el contenido de **`flag`**.
