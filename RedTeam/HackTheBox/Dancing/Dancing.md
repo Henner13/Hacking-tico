@@ -9,7 +9,7 @@ Para explotar esto vamos a usar ' smbclient '
 smbclient -L 10.129.1.12
 ```
 Nos preguntaran por una contraseña pero no la sabemos. Pero nos da opciones 
-![[Pasted image 20250613233914.png]]
+![[Imágenes/Pasted image 20250613233914.png]]
 Sabiendo esto,  es ir probando con cada opción de `Sharename`.
 ```
 smbclient \\\\10.129.1.12\\ADMIN$
@@ -19,7 +19,7 @@ smbclient \\\\10.129.1.12\\WorkShares
 
 Al final conseguimos entrar y nos encontramos con dos posibles usuarios.
 
-![[Pasted image 20250613234446.png]]
+![[Imágenes/Pasted image 20250613234446.png]]
 
 Vamos navegando por la terminal hasta conseguir que buscamos. 
 ![[Pasted image 20250613235451.png]]
