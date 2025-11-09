@@ -48,7 +48,7 @@ echo '2cb42dgfjkgsdfgñlaskdfhfoqw2334nk' > hash
 hashcat -a 0 -m 0 hash /usr/share/wordlists/rockyou.txt
 ```
 
-![[Pasted image 20250802193013.png]]https://github.com/Henner13/Hacking-tico/blob/main/RedTeam/HackTheBox/Im%C3%A1genes/Pasted%20image%2020250802193013.png
+![[Pasted image 20250802193013.png]](https://github.com/Henner13/Hacking-tico/blob/main/RedTeam/HackTheBox/Im%C3%A1genes/Pasted%20image%2020250802193013.png)
 
 Ahora introducimos las credenciales en la web.
 
