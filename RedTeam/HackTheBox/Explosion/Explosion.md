@@ -24,4 +24,4 @@ xfreerpd /v:10.129.171.120 /cert:ignore /u:Administrator
 ```
 Nos volverá a pedir que introduzcamos la contraseña pero al darle `Enter` nos dejará entrar.
 Se nos abrirá directamente en la pantalla la pantalla de un Windows Server, y en el escritorio tenemos el archivo `flag` para resolver este laboratorio.
-![[Pasted image 20250622193221.png]]
+![[Pasted image 20250622193221.png]](https://github.com/Henner13/Hacking-tico/blob/main/RedTeam/HackTheBox/Im%C3%A1genes/Pasted%20image%2020250622193221.png)
